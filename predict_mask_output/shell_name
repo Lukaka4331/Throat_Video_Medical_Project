@@ -1,0 +1,5 @@
+#!/bin/bash
+source activate py38_pytorch
+
+python predict_mask_output.py --predict_image_input D:/deep_learning_resource/mask_rcnn/dataset/RSLN_43/image --predict_mask_output D:/deep_learning_resource/mask_rcnn/dataset/mask_demo/RSLN_43_demo_mask
+
