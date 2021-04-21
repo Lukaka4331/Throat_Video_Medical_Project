@@ -4,7 +4,7 @@ from my_package.module_convert_a import convert
 from tqdm import tqdm
 #讀檔建立資料夾
 mp4_files = glob(os.path.join(r"D:/Medical_Imaging_Project/RLN_183/video", "*.mp4"))
-path = "D:/Medical_Imaging_Project/RLN_183/RSLN_video_data_{}"#資夾名稱D:\Medical_Imaging_Project\RLN_183
+path = "D:/Medical_Imaging_Project/RLN_183/RLN_video_data_{}"#資夾名稱D:\Medical_Imaging_Project\RLN_183
 i=0#計算資料夾編號
 print(len(mp4_files))
 
