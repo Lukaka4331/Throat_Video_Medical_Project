@@ -1,1 +1,1 @@
-# Throat_Video_Medical_Project
+# predict_mask_output
