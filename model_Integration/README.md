@@ -15,6 +15,7 @@ resource
 
 # eval_data.py
 
+* 評估結果
 * 預測各類別分數
 
 到pycocotools下修改cocoeval.py
