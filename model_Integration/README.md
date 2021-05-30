@@ -1,3 +1,7 @@
+# model_train.py
+主要模型訓練-resnet50+fpn
+![model](https://user-images.githubusercontent.com/22143034/120103296-86b6c900-c181-11eb-8db9-cae3112f08b8.png)
+
 # predict_mask_output
 
 Python 中 Shell Script 的使用方法
@@ -34,3 +38,5 @@ def summarize(self):
                     print('(all categories) mAP : {}'.format(avg_ap / num_classes))
     
 ```
+
+
