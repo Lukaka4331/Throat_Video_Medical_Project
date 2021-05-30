@@ -41,3 +41,4 @@ def summarize(self):
 
 * 預計結果
 
+![image](https://user-images.githubusercontent.com/22143034/120103408-0c3a7900-c182-11eb-8c7d-ae65e370f7c5.png)
