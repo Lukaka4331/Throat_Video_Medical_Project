@@ -1,5 +1,9 @@
 # Throat_Video_Medical_Project
 
+簡介
+
+* 預測左右聲帶及聲門，完整segment出各自的形狀
+
 Convert mp4 -> jpg
 
 * 影片是圖像的集合。我們可以把視頻當作文本數據，然後圖像是字符。
