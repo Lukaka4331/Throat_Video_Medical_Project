@@ -12,3 +12,13 @@ Convert mp4 -> jpg
 ```python=
 pip install opencv-python
 ```
+
+環境
+```python=
+conda install pytorch==1.5.0 torchvision==0.6.0 -c pytorch
+```
+
+匯入 environment.yml
+```python=
+conda env create -f ../Throat_Video_Medical_Project/environment.yml
+```
