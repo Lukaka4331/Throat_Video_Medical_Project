@@ -1,11 +1,11 @@
 # model_train.py
-主要模型訓練-resnet50+fpn
+* 主要模型訓練-resnet50+fpn
 ![model](https://user-images.githubusercontent.com/22143034/120103296-86b6c900-c181-11eb-8db9-cae3112f08b8.png)
 
 # predict_mask_output
 
-Python 中 Shell Script 的使用方法
-sh 後面接 .sh 文件的路徑
+* Python 中 Shell Script 的使用方法
+    * sh 後面接 .sh 文件的路徑
 ```
 sh shell_name
 ```
@@ -15,7 +15,7 @@ resource
 
 # eval_data.py
 
-預測各類別分數
+* 預測各類別分數
 
 到pycocotools下修改cocoeval.py
 
@@ -29,7 +29,7 @@ def summarize(self):
                 mean_s = np.mean(s[s>-1])    
 #---------------------------下方修改-----------------------    
                 #cacluate AP(average precision) for each category
-                num_classes = 3
+                num_classes = 3 #這邊是真實類別數(並沒有加入背景)
                 avg_ap = 0.0
                 if ap == 1:
                     for i in range(0, num_classes):
@@ -39,4 +39,5 @@ def summarize(self):
     
 ```
 
+* 預計結果
 
