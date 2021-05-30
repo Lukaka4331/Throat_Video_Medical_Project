@@ -5,7 +5,34 @@ sh 後面接 .sh 文件的路徑
 ```
 sh shell_name
 ```
-# Python 超好用標準函式庫 argparse
+## Python 超好用標準函式庫 argparse
 resource
 * [Python 超好用標準函式庫 argparse](https://dboyliao.medium.com/python-%E8%B6%85%E5%A5%BD%E7%94%A8%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB-argparse-4eab2e9dcc69)
 
+# eval_data.py
+
+預測各類別分數
+
+到pycocotools下修改cocoeval.py
+
+```
+def summarize(self):
+    def _summarize( ap=1, iouThr=None, areaRng='all', maxDets=100 ):
+    
+            if len(s[s>-1])==0:
+                mean_s = -1
+            else:
+                mean_s = np.mean(s[s>-1])    
+#---------------------------下方修改-----------------------    
+    
+    
+                #cacluate AP(average precision) for each category
+                num_classes = 3
+                avg_ap = 0.0
+                if ap == 1:
+                    for i in range(0, num_classes):
+                        print('category : {0} : {1}'.format(i+1,np.mean(s[:,:,i,:])))
+                        avg_ap +=np.mean(s[:,:,i,:])
+                    print('(all categories) mAP : {}'.format(avg_ap / num_classes))
+    
+```
