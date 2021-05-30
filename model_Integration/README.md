@@ -24,8 +24,6 @@ def summarize(self):
             else:
                 mean_s = np.mean(s[s>-1])    
 #---------------------------下方修改-----------------------    
-    
-    
                 #cacluate AP(average precision) for each category
                 num_classes = 3
                 avg_ap = 0.0
