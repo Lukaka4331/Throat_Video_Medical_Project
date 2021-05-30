@@ -19,6 +19,8 @@ conda install pytorch==1.5.0 torchvision==0.6.0 -c pytorch
 ```
 
 匯入 environment.yml
+* 就能得到 這個環境底下 透過 conda 以及 pip 安裝的套件
+
 ```python=
 conda env create -f ../Throat_Video_Medical_Project/environment.yml
 ```
