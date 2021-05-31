@@ -14,7 +14,7 @@
 動畫
 
 
-https://user-images.githubusercontent.com/22143034/120177808-60edfa80-c23b-11eb-8028-fd2d3783c078.mp4
+
 
 
 
