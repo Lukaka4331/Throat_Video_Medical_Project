@@ -11,14 +11,6 @@
 * 打開
 ![10_103](https://user-images.githubusercontent.com/22143034/120104679-3d1dac80-c188-11eb-837b-6f99c098cee9.png)
 
-動畫
-
-
-
-
-
-
-
 環境
 ```python=
 conda install pytorch==1.5.0 torchvision==0.6.0 -c pytorch
