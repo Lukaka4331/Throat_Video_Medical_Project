@@ -1,3 +1,4 @@
+
 # Throat_Video_Medical_Project
 
 簡介
@@ -9,6 +10,11 @@
 ![10_10](https://user-images.githubusercontent.com/22143034/120104655-1d868400-c188-11eb-9bff-159d058389b1.png)
 * 打開
 ![10_103](https://user-images.githubusercontent.com/22143034/120104679-3d1dac80-c188-11eb-837b-6f99c098cee9.png)
+
+動畫
+
+
+https://user-images.githubusercontent.com/22143034/120177808-60edfa80-c23b-11eb-8028-fd2d3783c078.mp4
 
 
 
